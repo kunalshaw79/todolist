@@ -1,0 +1,33 @@
+*{
+    text-transform: capitalize;
+}
+#cont
+{
+display: flex;
+border: 2px  black;
+background-color: #f0f8ff;
+justify-content:space-evenly;
+}
+
+.box{
+  display: flexbox;
+  background-color: rgba(111, 206, 235, 0.521);
+  color: white;
+  padding: 5px;
+  text-align: center;
+  width: 20%;
+  height: 40px;
+  border-radius: 30px;
+  cursor:pointer ;
+}
+.box:hover{
+  background-color: rgba(67, 144, 233, 0.596);
+}
+#box4:hover{
+  background-color: rgb(79, 159, 233);
+}
+#box4{
+  background-color: rgba(90, 214, 245, 0.466);
+  width: auto;
+  border-radius: 10px;
+}
